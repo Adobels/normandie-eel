@@ -270,6 +270,18 @@ body {
     margin: 0;
 }
 
+.inline-link {
+    color: #3a86ff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.inline-link:hover {
+    color: #2667cc;
+    text-decoration: underline;
+}
+
 .step:last-child {
     margin-bottom: 0;
 }
